@@ -1,23 +1,19 @@
 /* indie-flower-regular - latin */
 @font-face {
-	font-family: "Indie Flower";
+	font-family: "Times New Roman";
 	font-style: normal;
 	font-weight: 400;
-	src: local("Indie Flower"), local("IndieFlower"), url("../fonts/indie-flower-v12-latin-regular.woff2") format("woff2"),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/indie-flower-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
+		
 /* dekko-regular - latin */
 @font-face {
-	font-family: "Dekko";
+	font-family: "Times New Roman";
 	font-style: normal;
 	font-weight: 400;
-	src: local("Dekko"), url("../fonts/dekko-v7-latin-regular.woff2") format("woff2"),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/dekko-v7-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	
 }
 
 body {
-	font-family: "Dekko", cursive;
+	font-family: "Times New Roman", cursive;
 	background-color: #2e6d79;
 }
 
@@ -25,7 +21,7 @@ h1,
 h2,
 h3,
 h4 {
-	font-family: "Indie Flower", cursive;
+	font-family: "Times New Roman", cursive;
 	opacity: 0.7;
 }
 
@@ -44,12 +40,12 @@ h4 {
 }
 
 .dream {
-	background: url(../images/dream.jpg) center fixed;
+	background: url(dream.jpg) center fixed;
 	background-size: cover;
 }
 
 .top-pane {
-	background: url(../images/sleep.jpg) center fixed;
+	background: url(sleep.jpg) center fixed;
 	background-size: cover;
 	height: calc(100vh - 56px);
 }
